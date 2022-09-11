@@ -1,0 +1,137 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-color:lightseagreen;
+}
+
+.wrapper{
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center{
+    text-align: center;
+    background-color: rgb(219, 240, 233);
+}
+
+.clearfix{
+    float: none;
+    clear: both;
+}
+
+.tbl-full{
+    width: 100%;
+    border: 1px solid black;
+}
+.tbl-30{
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+    
+}
+
+
+table tr td{
+    padding: 0.5%;
+}
+
+.btn-primary{
+    background-color: #607006;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-primary:hover{
+    background-color: #797109;
+}
+
+.btn-secondary{
+    background-color: #05ac3a;
+    padding: 1%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+.btn-danger{
+    background-color: #fa1808;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+.btn-danger:hover{
+    background-color: #691b07;
+}
+
+.success{
+    color: #073018;
+}
+.error{
+    color: #ff4757;
+}
+
+
+/* CSS for Menu */
+.menu{
+    border-bottom: 1px solid grey;
+}
+.menu ul{
+    list-style-type: none;
+}
+.menu ul li{
+    display: inline;
+    padding: 1%;
+}
+.menu ul li a{
+    text-decoration: none;
+        color: #0c0b0b;
+        
+    }
+    
+.menu ul li a:hover{
+    color: #504c4d;
+    font-weight: bold;
+}
+
+/* CSS for main-content */
+.main-content{
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4{
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+
+/* CSS for Footer */
+.footer{
+    background-color: #ff4757;
+    color: white;
+}
+
+/* CSS for Login */
+.login{
+    border: 1px solid grey;
+    background-color:rgb(219, 240, 233);
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
